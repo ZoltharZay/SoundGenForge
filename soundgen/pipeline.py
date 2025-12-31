@@ -25,7 +25,7 @@ class PipelineConfig:
     _attempt_counter: int = 0
 
     # thresholds
-    pq_threshold: float = 6.0
+    pq_threshold: float = 0.6
     flamingo_threshold: float = 6.0
 
     # evaluator modes: ("audiobox",) or ("flamingo3",) or ("audiobox","flamingo3")
@@ -154,7 +154,8 @@ def run_generation_round(*, generator, cfg: PipelineConfig) -> None:
                 # Acceptance rule depends on enabled evaluators
                 ok = True
                 if audiobox is not None:
-                    ok = ok and (pq >= cfg.pq_threshold)
+                    pq_normalized = pq / 10.0
+                    ok = ok and (pq_normalized >= cfg.pq_threshold)
                 if flamingo is not None:
                     ok = ok and (fl_score >= cfg.flamingo_threshold)
 
