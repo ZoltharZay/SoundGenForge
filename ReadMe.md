@@ -222,6 +222,10 @@ Set:
 * Generation prompt templates are stored in `soundgen/prompts.py`
 
 ---
+## Blind AI
+* For details on how to train and test the Blind AI please follow the instructions on this [link](https://github.com/TeamFightingICE/BlindAI)
+
+---
 
 ## Troubleshooting
 
@@ -259,6 +263,7 @@ Ensure you have:
 * This repo orchestrates third-party models and APIs.
 * Each generator/evaluator model has its own license and usage restrictions.
 * Always follow the official license/terms for each model and API provider.
+
 
 
 
