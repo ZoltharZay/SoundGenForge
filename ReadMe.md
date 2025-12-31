@@ -250,7 +250,7 @@ Ensure you have:
 
 ## Reproducibility notes 
 
-* You can all the results from the experiments in `results` folder.
+* You can find all the results from the experiments in `results` folder.
 
 ---
 
@@ -259,6 +259,7 @@ Ensure you have:
 * This repo orchestrates third-party models and APIs.
 * Each generator/evaluator model has its own license and usage restrictions.
 * Always follow the official license/terms for each model and API provider.
+
 
 
 
