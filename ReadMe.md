@@ -1,7 +1,8 @@
 
 # Judge, Jury, and SFX-Maker: A Two-Step Pipeline for Generating and Evaluating Fighting Game Audio
 
-This repository generates and evaluates a **single-round** sound-design set for a **2D fighting game** character: **Zen (male)**.
+This repository contains the full research artifact package for **“Judge, Jury, and SFX-Maker: A Two-Step Pipeline for Generating and Evaluating Fighting Game Audio,”**
+
 
 ## Target output per set
 - **24 SFX** (≈ **1s** each)
@@ -260,4 +261,5 @@ Ensure you have:
 * Always follow the official license/terms for each model and API provider.
 
 ```
+
 
