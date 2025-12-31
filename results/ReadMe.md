@@ -2,7 +2,7 @@ This folder contains the **results and research artifacts** used in the paper:
 
 **“Judge, Jury, and SFX-Maker: A Two-Step Pipeline for Generating and Evaluating Fighting Game Audio.”**
 
-**Artifact link:** `<LINK_TO_RESULTS_RELEASE_OR_PROJECT_PAGE>`
+**[link](https://drive.proton.me/urls/291S6SEKT8#cHelaHKfwta2) to the results folder.**
 
 ---
 
